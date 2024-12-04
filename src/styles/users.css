@@ -1,0 +1,40 @@
+.users {
+    margin: 20px;
+}
+
+.users ul {
+    list-style: none;
+    padding: 0;
+}
+
+.users li {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.users button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+.user-detail,
+.user-form {
+    margin: 20px;
+}
+
+.user-form input {
+    margin: 5px;
+    padding: 5px;
+}
+
+.user-form button {
+    background: green;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
